@@ -1,0 +1,42 @@
+.dp-div {
+  border-color: #ffab00;
+  border-width: 2px;
+  height: auto;
+  border-style: double;
+}
+
+.desc-div {
+  border-color: #ff9100;
+  border-width: 2px;
+  height: auto;
+  border-style: double;
+}
+
+.desc-div p {
+  height: 64px;
+  width: inherit;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_dp{
+height: 48px; display: block; margin: auto; padding: 2px;
+}
+
+.liked_div{
+  border-color: #ff9100;
+  border-width: 2px;
+  height: auto;
+  border-style: double;
+}
+
+
+.disliked_div{
+  border-color: #ff9100;
+  border-width: 2px;
+  height: auto;
+  border-style: double;
+}
