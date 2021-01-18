@@ -1,3 +1,5 @@
+
+
 var is_liked = false;
 var is_disliked = false;
 document.querySelectorAll('.liked_div').forEach(item => {
@@ -54,9 +56,10 @@ document.querySelectorAll('.liked_div').forEach(item => {
 
   document.getElementById('user_name_ht').addEventListener('load', user_get());
 function user_get(){
+  var vOneLS = localStorage.getItem("ex");  
     var user = firebase.auth().currentUser;
     var span_user = document.getElementById('user_name_ht');
-    span_user.innerHTML = "Hello" + user;
+    span_user.innerHTML = "Hello" + vOneLS;
     alert('sdkjbfskbfla');
   
   }

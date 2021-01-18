@@ -1,3 +1,5 @@
+var globalVariable;
+
 firebase.auth().onAuthStateChanged(function(user) {
   // if (user) {
   //   // User is signed in.
@@ -60,9 +62,9 @@ function signUp() {
       // ...
     });
 
-    
+    localStorage.setItem("ex", email_x);
     alert('User created!' + email_x);
-    var globalVariable={
+     globalVariable={
       x: email_x
    };
 
@@ -106,5 +108,5 @@ function signUp() {
     });
     
     
-
+  
 }
